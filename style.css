@@ -1,0 +1,17 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  height: 200vh; /* Deixa a página rolável para testar o efeito fixo */
+  background-color: #f0f0f0;
+}
+
+
+.Overlay {
+  position: fixed;     
+  top: 0;
+  left: 0;
+  width: 100%;        
+  height: 100%;        
+  background-color: rgba(0, 0, 0, 0.5); 
+}
